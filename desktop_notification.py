@@ -1,9 +1,9 @@
 import time
-from plyer import notification
+import plyer
 
 if __name__ == '__main__':
     while True:
-        notification.notify(
+        plyer.notification.notify(
             title = "Time To Drink Water!!",
             message = "Drinking water stabilizing the heartbeat and maintain blood pressure",
 
